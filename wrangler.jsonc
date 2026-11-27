@@ -4,7 +4,7 @@
   "compatibility_date": "2026-11-01",
   "keep_vars": true,
   "assets": {
-    "directory": "./public",
+    "directory": ".",
     "binding": "ASSETS",
     "run_worker_first": ["/api/*"]
   }
