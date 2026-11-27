@@ -1,0 +1,23 @@
+{
+  "name": "jee-smart-notes",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-01",
+  "keep_vars": true,
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "ratelimits": [
+    {
+      "name": "GEMINI_RATE_LIMITER",
+      "namespace_id": "827461",
+      "simple": {
+        "limit": 30,
+        "period": 60
+      }
+    }
+  ]
+}
